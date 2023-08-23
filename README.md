@@ -113,7 +113,7 @@ The fake data for the Marketing Channel Effectiveness Dashboard has been generat
 
 You can download the Excel file using the link below:
 
-[Download the Excel File]()
+[Download the Excel File](data/marketing_channel_data.xlsx)
 
 Feel free to reach out if you need any further assistance or clarification on working with this data!
 
