@@ -83,7 +83,7 @@ From this data, you'll be able to calculate the following metrics:
 
 Let's create a dataset with these columns and export it to an Excel file.
 
-'''
+~~~
 # Number of rows
 num_rows = 1000
 
@@ -107,15 +107,13 @@ marketing_file_path = '/mnt/data/marketing_channel_data.xlsx'
 # Saving to Excel
 with pd.ExcelWriter(marketing_file_path) as writer:
     marketing_df.to_excel(writer, sheet_name='Marketing Data', index=False)
-
-marketing_file_path
-'''
+~~~
 
 The fake data for the Marketing Channel Effectiveness Dashboard has been generated, and the file has been saved as an Excel file. This dataset includes 1000 rows and contains realistic attributes that will allow you to calculate the specified metrics.
 
 You can download the Excel file using the link below:
 
-[Download the Excel File](sandbox:/mnt/data/marketing_channel_data.xlsx)
+[Download the Excel File]()
 
 Feel free to reach out if you need any further assistance or clarification on working with this data!
 
